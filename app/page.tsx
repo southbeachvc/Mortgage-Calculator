@@ -108,8 +108,10 @@ export default function SavingsCalculatorPage() {
   return (
     <div className="min-h-[calc(100vh-4rem)] bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
       {/* Top Banner Ad Placeholder */}
-      <div className="w-full max-w-3xl mb-8 bg-gray-200 border border-gray-300 rounded-lg flex items-center justify-center text-gray-600 text-sm h-24 md:h-32 lg:h-40">
-        Top Banner Ad (728x90 or similar)
+      <div className="w-full max-w-3xl mb-8 bg-[#1e3a5f] rounded-lg p-4 md:p-6">
+        <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">Sponsored</p>
+        <h3 className="text-white text-lg md:text-xl font-semibold mb-1">YOUR AD HERE</h3>
+        <p className="text-gray-300 text-sm">Contact us to advertise your product or service at threefourqnquiry@gmail.com</p>
       </div>
 
       <Card className="w-full max-w-3xl shadow-xl rounded-lg overflow-hidden border-t-4 border-primary-purple-600">
@@ -243,8 +245,10 @@ export default function SavingsCalculatorPage() {
       </Card>
 
       {/* Bottom Banner Ad Placeholder */}
-      <div className="w-full max-w-3xl mt-8 bg-gray-200 border border-gray-300 rounded-lg flex items-center justify-center text-gray-600 text-sm h-24 md:h-32 lg:h-40">
-        Bottom Banner Ad (728x90 or similar)
+      <div className="w-full max-w-3xl mt-8 bg-[#1e3a5f] rounded-lg p-4 md:p-6">
+        <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">Sponsored</p>
+        <h3 className="text-white text-lg md:text-xl font-semibold mb-1">YOUR AD HERE</h3>
+        <p className="text-gray-300 text-sm">Contact us to advertise your product or service at threefourqnquiry@gmail.com</p>
       </div>
     </div>
   )
